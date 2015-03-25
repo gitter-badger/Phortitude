@@ -19,6 +19,9 @@
 # EditorConfig
 !.editorconfig
 
+### Build, Continuous Integration & Development Tools
+/build/
+
 ### Tools
 
 ## Composer
@@ -29,6 +32,10 @@ composer.phar
 ## PHP_CodeSniffer
 phpcs.phar
 phpcbf.phar
+
+## PHPUnit
+phpunit.xml
+phpunit.phar
 
 ### Editors & IDEs
 

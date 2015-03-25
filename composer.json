@@ -19,11 +19,19 @@
     },
     "require-dev": {
         "jakub-onderka/php-parallel-lint": "~0.7",
-        "squizlabs/php_codesniffer": "~2.3"
+        "squizlabs/php_codesniffer": "~2.3",
+        "phpunit/phpunit": "~4.5"
     },
     "autoload": {
         "psr-4": {
             "Phortitude\\": "src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Phortitude\\Test\\": "tests",
+            "Phortitude\\Test\\Regression\\": "tests/regression",
+            "Phortitude\\Test\\Fixture\\": "tests/fixtures"
         }
     },
     "minimum-stability": "dev",

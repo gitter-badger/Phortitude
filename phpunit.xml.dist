@@ -1,0 +1,26 @@
+<phpunit bootstrap="tests/bootstrap.php"
+         backupGlobals="false"
+         backupStaticAttributes="false"
+         beStrictAboutOutputDuringTests="true"
+         beStrictAboutTestsThatDoNotTestAnything="true"
+         checkForUnintentionallyCoveredCode="true"
+         forceCoversAnnotation="true"
+>
+    <testsuites>
+        <testsuite name="Phortitude Test Suite">
+            <directory suffix="Test.php" phpVersion="5.5.0">tests</directory>
+        </testsuite>
+    </testsuites>
+
+    <filter>
+        <whitelist addUncoveredFilesFromWhitelist="true" processUncoveredFilesFromWhitelist="true">
+            <directory suffix=".php">src</directory>
+        </whitelist>
+    </filter>
+
+    <php>
+        <ini name="error_reporting" value="E_ALL"/>
+        <ini name="display_errors" value="true"/>
+        <ini name="date.timezone" value="UTC"/>
+    </php>
+</phpunit>
