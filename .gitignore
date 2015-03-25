@@ -1,0 +1,31 @@
+# NOTE! Don't add files or directories that are generated in specific subdirectories. Instead, add them to a separate
+# '.gitignore' file in that subdirectory.
+
+# NOTE! Use the 'git ls-files -i --exclude-standard' command after changing this file to see if there are any tracked
+# files or directories that will be ignored after the change. If so, remove them from Git with the
+# 'git rm -r --cached ...' command.
+
+### General
+
+## Hidden files and directories
+.*
+
+## Hidden files and directories that we don't want to ignore
+# Git
+!.gitignore
+!.gitattributes
+!.gitkeep
+!.mailmap
+# EditorConfig
+!.editorconfig
+
+### Editors & IDEs
+
+## vim(m)
+*.swp
+
+### Operating Systems
+
+## Linux
+# Backup files
+*~

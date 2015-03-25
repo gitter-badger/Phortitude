@@ -1,0 +1,21 @@
+# Phortitude
+
+**Phortitude** is a collection of components for PHP developers.
+
+It aims to comply with [PSR-1](http://www.php-fig.org/psr/psr-1), [PSR-2](http://www.php-fig.org/psr/psr-2) and
+[PSR-4](http://www.php-fig.org/psr/psr-4).
+
+## Is it any good?
+
+[Yes](https://news.ycombinator.com/item?id=3067434).
+
+## License
+
+Copyright © 2015 by [DualForge](https://www.dualforge.com) and all
+[contributors](https://github.com/phortitude/phortitude/graphs/contributors).
+
+**Phortitude** is released under the [MIT License](LICENSE.md).
+
+## To be continued ...
+
+More information and documentation will be available in the future. **Please stay tuned!**
