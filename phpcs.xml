@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<ruleset name="Phortitude">
+    <description>PHP_CodeSniffer configuration for Phortitude</description>
+
+    <!-- Directories to check -->
+    <file>src</file>
+
+    <!-- Command Line Arguments -->
+    <arg value="p"/>
+
+    <!-- Include the PSR2 Standard -->
+    <rule ref="PSR2"/>
+</ruleset>

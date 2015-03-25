@@ -5,3 +5,4 @@
 .gitkeep export-ignore
 .mailmap export-ignore
 .editorconfig export-ignore
+phpcs.xml export-ignore

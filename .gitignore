@@ -26,6 +26,10 @@
 composer.lock
 composer.phar
 
+## PHP_CodeSniffer
+phpcs.phar
+phpcbf.phar
+
 ### Editors & IDEs
 
 ## vim(m)
