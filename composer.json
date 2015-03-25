@@ -1,0 +1,32 @@
+{
+    "name": "phortitude/phortitude",
+    "description": "A collection of components for PHP developers",
+    "keywords": ["library", "component"],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Sebastian Kraus",
+            "email": "sebastian.kraus@dualforge.com",
+            "role": "Maintainer"
+        }
+    ],
+    "support": {
+        "issues": "https://github.com/phortitude/phortitude/issues",
+        "source": "https://github.com/phortitude/phortitude"
+    },
+    "require": {
+        "php": ">=5.5.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Phortitude\\": "src"
+        }
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "extra": {
+        "branch-alias": {
+            "dev-develop": "1.0-dev"
+        }
+    }
+}

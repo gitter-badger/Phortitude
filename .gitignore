@@ -19,6 +19,13 @@
 # EditorConfig
 !.editorconfig
 
+### Tools
+
+## Composer
+/vendor/
+composer.lock
+composer.phar
+
 ### Editors & IDEs
 
 ## vim(m)
