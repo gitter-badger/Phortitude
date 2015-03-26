@@ -1,5 +1,7 @@
 # Phortitude
 
+[![Join the chat at https://gitter.im/Phortitude/Phortitude](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/Phortitude/Phortitude?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+
 **Phortitude** is a collection of components for PHP developers.
 
 It aims to comply with [PSR-1](http://www.php-fig.org/psr/psr-1), [PSR-2](http://www.php-fig.org/psr/psr-2) and
